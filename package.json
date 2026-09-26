@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-vaers",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "VAERS (Vaccine Adverse Event Reporting System) — report counts by vaccine,",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-a1ffad2735d0c61874b52b7797a1444c8de60747a744170d879fc5df77b83664",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-8cc924e2789b598c56424f42aa54245313dec24f670ca2df0b1873b3be076278",
+    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
   }
 }
