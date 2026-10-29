@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-vaers",
-  "version": "0.1.2",
-  "description": "VAERS (Vaccine Adverse Event Reporting System) — report counts by vaccine,",
+  "version": "0.2.0",
+  "description": "VAERS (Vaccine Adverse Event Reporting System) — report counts by vaccine, manufacturer, symptom, year and severity. Fleet #1294.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-vaers": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "vaers"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-vaers.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/vaers",
   "pipeworx": {
-    "sourceHash": "v1-8cc924e2789b598c56424f42aa54245313dec24f670ca2df0b1873b3be076278",
-    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
+    "mode": "gateway",
+    "slug": "vaers",
+    "gatewaySlug": "vaers",
+    "sourceHash": "v1-1156cc7b4d8ddcdbf5ff7c916ea66c431fd3806bbf1ac465ac032757ec50f554",
+    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
   }
 }
