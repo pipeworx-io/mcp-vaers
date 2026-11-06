@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-vaers",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "VAERS (Vaccine Adverse Event Reporting System) — report counts by vaccine, manufacturer, symptom, year and severity. Fleet #1294.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "vaers",
     "gatewaySlug": "vaers",
-    "sourceHash": "v1-1156cc7b4d8ddcdbf5ff7c916ea66c431fd3806bbf1ac465ac032757ec50f554",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-07dc1363c7d5cff7ad5875e464d51ecf0a0cb09cce506268a386968969d5cc61",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
